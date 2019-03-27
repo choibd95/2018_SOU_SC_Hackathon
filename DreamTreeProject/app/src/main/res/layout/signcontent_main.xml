@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kimjinhyeok.tree.dreamtreeproject.SignActivity"
+    android:background="@drawable/main2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bg44"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_above="@+id/bg33"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp">
+        <!-- android:background="@drawable/kakao_login_button_background" -->
+
+
+        <ImageView
+            android:id="@+id/symbo20"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:src="@mipmap/ic_search_white_48dp" />
+
+
+        <TextView
+            android:id="@+id/text30"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="22dp"
+            android:layout_weight="0.25"
+            android:gravity="left|center"
+            android:text="가맹점 검색"
+            android:textColor="@color/mainbuttoncoler"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView340"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="130dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/next" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/logotext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView8"
+        android:layout_marginBottom="-20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toEndOf="@+id/imageView8"
+        android:layout_toRightOf="@+id/imageView8"
+        android:text="꿈나무\n  도우미"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/mainbuttoncoler"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:id="@+id/bg33"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_above="@+id/bg22"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp">
+        <!-- android:background="@drawable/kakao_login_button_background" -->
+
+
+        <ImageView
+            android:id="@+id/symbol10"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:src="@mipmap/ic_thumb_up_white_48dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text55"
+            android:layout_width="144dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="22dp"
+            android:layout_weight="0.25"
+            android:gravity="left|center"
+            android:text="꿈나무추천 식당랭킹"
+            android:textColor="@color/mainbuttoncoler"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="130dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/next" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bg22"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_above="@+id/bg11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp">
+        <!-- android:background="@drawable/kakao_login_button_background" -->
+
+
+        <ImageView
+            android:id="@+id/symbol123"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:src="@mipmap/ic_exposure_white_48dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text123"
+            android:layout_width="144dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="22dp"
+            android:layout_weight="0.25"
+            android:gravity="left|center"
+            android:text="꿈나무카드 가계부"
+            android:textColor="@color/mainbuttoncoler"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1a3"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="130dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/next" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bg11"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp">
+        <!-- android:background="@drawable/kakao_login_button_background" -->
+
+
+        <ImageView
+            android:id="@+id/symbol121"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:src="@mipmap/ic_help_white_48dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text1231"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="22dp"
+            android:layout_weight="0.25"
+            android:gravity="left|center"
+            android:text="꿈나무카드 이용 안내"
+            android:textColor="@color/mainbuttoncoler"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3131"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="130dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/next" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bg77"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_above="@+id/bg44"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp">
+        <!-- android:background="@drawable/kakao_login_button_background" -->
+
+
+        <ImageView
+            android:id="@+id/symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:src="@mipmap/ic_map_white_48dp" />
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="22dp"
+            android:layout_weight="0.25"
+            android:gravity="left|center"
+            android:text="가맹점 지도"
+            android:textColor="@color/mainbuttoncoler"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView311"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="130dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/next" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/bg77"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        app:srcCompat="@drawable/tree10" />
+
+</RelativeLayout>

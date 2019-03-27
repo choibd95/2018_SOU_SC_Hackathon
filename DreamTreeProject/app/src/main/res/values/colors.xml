@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4584b0</color>
+    <color name="colorPrimaryDark">#295673</color>
+    <color name="colorAccent">#40566b</color>
+    <color name="colorgps">#4584B0</color>
+    <color name="colorgpsoff">#006799ff</color>
+    <color name="maincolor">#4584b0</color>
+    <color name="subcoler">#7ea9c6</color>
+    <color name="mainbuttoncoler">#ffffff</color>
+    <color name="black">#88000000</color>
+    <color name="red">#ffcc0000</color>
+
+</resources>

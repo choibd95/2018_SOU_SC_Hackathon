@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="80dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="70dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:gravity="center_horizontal"
+                android:text="어 플 이 용 안 내"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:background="@android:color/background_light"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView6"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_toEndOf="@+id/imageView6"
+                android:layout_toRightOf="@+id/imageView6"
+                android:text="카테고리"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView6"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="24dp"
+                android:layout_toEndOf="@+id/imageView6"
+                android:layout_toRightOf="@+id/imageView6"
+                android:text="원하는 음식종류만 선택가능"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView24"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_toEndOf="@+id/imageView24"
+                android:layout_toRightOf="@+id/imageView24"
+                android:text="꿈나무카드 가맹점(식당) 조회"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView24"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="24dp"
+                android:layout_toEndOf="@+id/imageView24"
+                android:layout_toRightOf="@+id/imageView24"
+                android:text="지도중심 반경 5Km"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView10"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_toEndOf="@+id/imageView10"
+                android:layout_toRightOf="@+id/imageView10"
+                android:text="가맹점(식당) 검색"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView10"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="24dp"
+                android:layout_toEndOf="@+id/imageView10"
+                android:layout_toRightOf="@+id/imageView10"
+                android:text="가맹점 이름으로 검색가능"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView11"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_toEndOf="@+id/imageView11"
+                android:layout_toRightOf="@+id/imageView11"
+                android:text="자치구별 가맹점 검색"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView11"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="24dp"
+                android:layout_toEndOf="@+id/imageView11"
+                android:layout_toRightOf="@+id/imageView11"
+                android:text="GPS 없이 이용가능"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView12"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_toEndOf="@+id/imageView12"
+                android:layout_toRightOf="@+id/imageView12"
+                android:text="현재위치 표시"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView12"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="24dp"
+                android:layout_toEndOf="@+id/imageView12"
+                android:layout_toRightOf="@+id/imageView12"
+                android:text="GPS 켜야 사용가능"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView22"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_toEndOf="@+id/imageView22"
+                android:layout_toRightOf="@+id/imageView22"
+                android:text="어플사용안내"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView22"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="24dp"
+                android:layout_toEndOf="@+id/imageView22"
+                android:layout_toRightOf="@+id/imageView22"
+                android:text="어플 설명서"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/imageView24"
+                android:layout_alignStart="@+id/imageView24"
+                android:layout_below="@+id/imageView24"
+                android:layout_marginTop="26dp"
+                app:srcCompat="@drawable/menu3" />
+
+
+            <ImageView
+                android:id="@+id/imageView10"
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/imageView6"
+                android:layout_alignStart="@+id/imageView6"
+                android:layout_below="@+id/imageView6"
+                android:layout_marginTop="26dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/values"
+                android:backgroundTint="@color/colorPrimary"
+                android:clickable="true"
+                android:cropToPadding="false"
+                android:descendantFocusability="blocksDescendants"
+                app:srcCompat="@mipmap/ic_search_white_48dp"
+
+                />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/imageView10"
+                android:layout_alignStart="@+id/imageView10"
+                android:layout_below="@+id/imageView10"
+                android:layout_marginTop="26dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/values"
+                android:backgroundTint="@color/colorPrimary"
+                android:clickable="true"
+                android:cropToPadding="false"
+                android:descendantFocusability="blocksDescendants"
+                app:srcCompat="@mipmap/ic_location_off_white_36dp"
+
+                />
+
+
+            <ImageView
+                android:id="@+id/imageView12"
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/imageView11"
+                android:layout_alignStart="@+id/imageView11"
+                android:layout_below="@+id/imageView11"
+                android:layout_marginBottom="26dp"
+                android:layout_marginTop="26dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/values"
+                android:backgroundTint="@color/colorPrimary"
+                android:clickable="true"
+                android:cropToPadding="false"
+                android:descendantFocusability="blocksDescendants"
+                app:srcCompat="@mipmap/ic_my_location_white_36dp"
+
+
+                />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/textView7"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@+id/textView7"
+                android:layout_toRightOf="@+id/textView7"
+                app:srcCompat="@drawable/main_white" />
+
+
+            <ImageView
+                android:id="@+id/imageView22"
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/imageView12"
+                android:layout_alignStart="@+id/imageView12"
+                android:layout_below="@+id/imageView12"
+                android:layout_marginBottom="26dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/values"
+                android:backgroundTint="@color/colorPrimary"
+                android:clickable="true"
+                android:cropToPadding="false"
+                android:descendantFocusability="blocksDescendants"
+                app:srcCompat="@mipmap/ic_help_outline_white_36dp"
+
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp">
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/colorPrimary"
+                    android:text="닫  기"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

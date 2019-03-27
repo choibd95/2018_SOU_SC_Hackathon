@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kimjinhyeok.tree.dreamtreeproject.simpleFragment">
+
+
+    <com.skt.Tmap.TMapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="New Button"
+        android:id="@+id/tmapView"
+        android:layout_gravity="left|top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/bg11"
+            android:layout_width="match_parent"
+            android:gravity="bottom|center"
+            android:background="@drawable/nvborder"
+            android:padding="10dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <!-- android:background="@drawable/kakao_login_button_background" -->
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:hint="지역별 검색"
+                android:textStyle="bold"
+                android:layout_width="140dp"
+                android:layout_marginLeft="36dp"
+                android:id="@+id/addtext"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/symbol"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/search"
+
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_listView"
+        android:paddingLeft="12dp" />
+</LinearLayout>

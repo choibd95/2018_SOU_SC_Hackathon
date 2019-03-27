@@ -1,0 +1,272 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kimjinhyeok.tree.dreamtreeproject.viewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_awesome_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:height="?actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <com.skt.Tmap.TMapView
+        android:id="@+id/tmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="left|top"
+        android:text="New Button" />
+
+    <RelativeLayout
+        android:id="@+id/downview"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/nvborder"
+        android:clickable="true"
+        android:gravity="bottom"
+        android:paddingBottom="16dp"
+        android:visibility="gone"
+        tools:gravity="bottom">
+        <!--android:background="@android:color/nv"-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingTop="4dp">
+
+            <TextView
+                android:id="@+id/textView_km"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="99dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:text="1.2km" />
+
+            <TextView
+                android:id="@+id/textView_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="6dp"
+                android:text="파리바게트"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_kategorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:text="제과점" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/nv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/nvborder"
+                    android:paddingLeft="16dp">
+                    <!-- android:background="@drawable/kakao_login_button_background" -->
+
+
+                    <ImageView
+                        android:id="@+id/symbol"
+                        android:layout_width="40dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_phone"
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/aaaatext"
+                        android:layout_width="140dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="0.25"
+                        android:gravity="left|center"
+                        android:text="전화 하기"
+                        android:textColor="@color/maincolor"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/nv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/nvborder"
+                    android:gravity="center"
+                    android:paddingLeft="16dp">
+                    <!-- android:background="@drawable/kakao_login_button_background" -->
+
+
+                    <ImageView
+                        android:id="@+id/symbola"
+                        android:layout_width="40dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center_vertical"
+
+                        android:src="@drawable/ic_nv" />
+
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="140dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="0.25"
+                        android:gravity="left|center"
+                        android:text="길 찾기"
+                        android:textColor="@color/maincolor"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView_kategorie"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/next3" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView_km"
+                android:layout_alignEnd="@+id/imageView9"
+                android:layout_alignRight="@+id/imageView9"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                app:srcCompat="@drawable/next3" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="284dp"
+                android:layout_marginTop="22dp"
+                android:text="상세보기"
+                tools:text="상세보기" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/menu3"
+        android:layout_above="@+id/imageView15"
+        android:layout_alignLeft="@+id/imageView15"
+        android:layout_alignStart="@+id/imageView15" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="170dp"
+        android:layout_marginRight="22dp"
+        android:adjustViewBounds="false"
+        android:clickable="true"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/non_select" />
+
+    <ImageView
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gps"
+        android:layout_alignStart="@+id/gps"
+        android:layout_below="@+id/gps"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/values"
+        android:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@mipmap/ic_help_outline_white_48dp"
+        android:descendantFocusability="blocksDescendants"
+        android:adjustViewBounds="false"
+        android:clickable="true"
+        android:cropToPadding="false"
+        />
+
+    <ImageView
+        android:id="@+id/gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/values"
+        android:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@mipmap/ic_my_location_white_48dp"
+        android:descendantFocusability="blocksDescendants"
+        android:adjustViewBounds="false"
+        android:clickable="true"
+        android:cropToPadding="false"
+        />
+
+</RelativeLayout>

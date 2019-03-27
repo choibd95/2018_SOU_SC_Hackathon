@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/name"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView14"
+        android:layout_toEndOf="@+id/imageView14"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tel"
+        android:layout_below="@+id/name"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignStart="@+id/name" />
+
+    <ImageView
+        app:srcCompat="@drawable/c4"
+        android:id="@+id/imageView14"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="44dp"
+        android:layout_height="44dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/next3"
+        android:layout_marginRight="33dp"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:id="@+id/imageView13"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/imageView13"
+        android:layout_toRightOf="@+id/dal3"
+        android:layout_toEndOf="@+id/dal3"
+        android:layout_marginTop="2dp" />
+
+    <ImageView
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/new4"
+        android:id="@+id/imageView5"
+        android:layout_width="24dp"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toRightOf="@+id/dal3"
+        android:layout_toEndOf="@+id/dal3"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="50dp" />
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "102806918860",
+    "firebase_url": "https://dreamtree-1.firebaseio.com",
+    "project_id": "dreamtree-1",
+    "storage_bucket": "dreamtree-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102806918860:android:89748cee9660796d",
+        "android_client_info": {
+          "package_name": "com.kimjinhyeok.tree.dreamtreeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102806918860-m2scema591gg2sckbp1mi20dhq2k3vsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX0PMzyqr820SW3fE-xks5YjH9RLQrULI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102806918860:android:d027f69d5d89fb65",
+        "android_client_info": {
+          "package_name": "com.kimjinhyeok.tree.dreamtreeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102806918860-m2scema591gg2sckbp1mi20dhq2k3vsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX0PMzyqr820SW3fE-xks5YjH9RLQrULI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
